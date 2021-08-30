@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "lib": [
+            "es2017"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "rootDir": "./"
+    },
+    "include": [
+        "src/**/*.ts",
+        "package.json",
+        "package-lock.json",
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "files": [
+        "node_modules/typescript/lib/lib.es6.d.ts"
+    ]
+}

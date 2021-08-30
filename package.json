@@ -1,0 +1,26 @@
+{
+  "name": "vue-formkit",
+  "version": "1.0.0",
+  "description": "Programmatically create forms easily",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc && rollup -c rollup.config.js",
+    "dev": "tsc && rollup -c -w rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilianoamorim/vue-formkit.git"
+  },
+  "author": "Emiliano Amorim <emilianocorreiadasilva@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilianoamorim/vue-formkit/issues"
+  },
+  "homepage": "https://github.com/emilianoamorim/vue-formkit#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.5",
+    "rollup": "^2.56.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.2"
+  }
+}
