@@ -1,7 +1,7 @@
 {
-  "name": "vue-formkit",
+  "name": "rollup-ts-base",
   "version": "1.0.0",
-  "description": "Programmatically create forms easily",
+  "description": "",
   "main": "main.js",
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilianoamorim/vue-formkit.git"
+    "url": "git+https://github.com/emilianoamorim/rollup-ts-base.git"
   },
   "author": "Emiliano Amorim <emilianocorreiadasilva@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emilianoamorim/vue-formkit/issues"
+    "url": "https://github.com/emilianoamorim/rollup-ts-base/issues"
   },
-  "homepage": "https://github.com/emilianoamorim/vue-formkit#readme",
+  "homepage": "https://github.com/emilianoamorim/rollup-ts-base#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.5",
     "rollup": "^2.56.3",
