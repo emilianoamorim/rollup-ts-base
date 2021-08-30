@@ -1,2 +1,1 @@
-# vue-formkit
-Programmatically create forms easily
+# Rollup typescript base
